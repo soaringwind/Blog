@@ -13,9 +13,10 @@
    git config --mail@mail
    ```
 
-3. 新、增文件，提交到暂存区
+3. 初始化文件夹，新、增文件，提交到暂存区
 
    ```
+   git init
    git add file_addr
    ```
 
@@ -84,7 +85,19 @@
 git clone url
 ```
 
-### 2. 
+### 2. 给远程仓库起名
+
+```
+git remote 仓库名 地址
+```
+
+### 3. 向远程仓库推送代码
+
+```
+git push -u 仓库名
+```
+
+
 
 
 
@@ -101,7 +114,7 @@ git reset --hard 版本号
 git branch
 
 # 创建分支
-git branck 名字
+git branch 名字
 
 # 删除分支
 git branch -d 名字
